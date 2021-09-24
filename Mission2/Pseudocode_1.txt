@@ -1,0 +1,16 @@
+BOOL ISPRIME(INT N) // 어떤 수 N이 소수인지 판단하는 Bool 함수
+   IF [N이 2보다 작으면]
+      RETURN FALSE
+   FOR [2부터 루트 N의 내림수까지 1씩 증가하면서]
+      IF [N이 i로 나누어진다면]
+         ["Not Primenumber"로 출력]
+         RETURN FALSE
+   [For Loop에서 False로 반환되지 않았다면 "Primenumber"로 출력]
+   RETURN TRUE
+
+
+INT MAIN() // 메인 함수
+   FOR [2부터 특정 수까지 1씩 증가하면서]
+      [Loop 안에서의 몇번째 수인지 출력]
+      ISPRIME(I) // 바로 윗줄에서 출력된 수에 대한 Bool 함수
+      NEW LINE CHARACTER
