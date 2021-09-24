@@ -3,7 +3,7 @@ INT PRIMENUM[???] // 검사하고자 하는 소수
 
 VOID PRIMENUMBERSIEVE() // Void
    FOR [2부터 NUMBER까지 1씩 증가하면서]
-      [배열의 i번째 수를 i로 바꾸어 준다.]
+      [배열의 i번째 수를 i로 바꾸어 줌]
    FOR [2부터 루트 NUMBUR의 내림수까지 1씩 증가하면서]
       IF [몇 번째 Loop인가 나타내는 수를 i라 하면 배열 안에서 i 번째의 수가 0이면]
          [다음의 Loop로 바로 이동]
