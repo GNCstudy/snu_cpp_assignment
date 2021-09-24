@@ -1,5 +1,5 @@
-INT NUMBER=???-1 // 검사하고자 하는 소수의 범위
-INT PRIMENUM[???] // 검사하고자 하는 소수
+INT NUMBER=???-1 // 검사의 범위
+INT PRIMENUM[???] // 어느 수까지 소수인지를 검사하는가 지정
 
 VOID PRIMENUMBERSIEVE() // Void
    FOR [2부터 NUMBER까지 1씩 증가하면서]
