@@ -21,11 +21,11 @@ int main()
         for (int j = i * i; j <= number; j += i) // For Loop (i의 제곱부터 NUMBER까지 1씩 증가하면서)
             primeNum[j] = 0; // 0으로 바꿈
     }
-    int value = 0
+    int value = 0;
     for (int i = 2; i <= number; i++) // For Loop (2부터 루트 NUMBUR의 내림수까지 1씩 증가하면서)
     {
         if (primeNum[i] != 0) // 배열 안에서 0으로 바뀌지 않았다면 그 수는 소수
-            value+=1
+            value+=1;
     }
     cout << "소수의 개수: " << value << endl;
     endTime=clock();
