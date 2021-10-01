@@ -7,12 +7,12 @@ Stack
 
 int main(){
     stack<int> s;
-    s.push(7);
+    s.push(9);
     s.push(2);
     s.pop;   // 가장 마지막 요소 (2) 제거
     s.push(5);
     while(!s.empty()){
-        cout<<s.top()<<' ';  // 5,7이 출력된다.
+        cout<<s.top()<<' ';  // 5,9가 출력된다.
         s.pop();
     }
     return 0;
