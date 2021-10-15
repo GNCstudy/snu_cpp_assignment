@@ -1,0 +1,9 @@
+*DFS
+
+경로 탐색에 있어서 Optimal을 보장해주지 않는다.
+(특정 경로를 찾아내어도 그 경로는 최단 경로가 아닐 수 있다.)
+
+*Iterative Deepening DFS
+
+경로 탐색에 있어서 어느 정도 Optimal을 보장해준다.
+특정 Depth에 찾고자 하는 Node가 있는 지의 여부를 알 수 있다.
