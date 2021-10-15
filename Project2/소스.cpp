@@ -3,9 +3,11 @@
 #include "std_lib_facilities.h"
 #include <time.h> 
 
-// 11 Queen Problem 을 푸는 프로그램
+// 11 Queens Problem 을 푸는 프로그램
 // grid[][]는 0과 1이 놓일 수 있는 격자판(체스보드)를 의미한다.
 // grid[11][11] 은 11 x 11 의 격자판이다.
+// 8 Queens로 만들기 위해서는 grid를 [8][8]로 바꾸어주고 또한 main함수에서의 int할당을 8로만 바꾸어주면된다.
+
 int grid[11][11];
 
 // p를 0으로 할당한다.
@@ -83,7 +85,7 @@ int main()
     cout <<"StartTime: "<< double(startTime) <<" ms"<< endl << endl; // 시작 시간을 출력한다.
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int n=11;
+    int n=11; // 8 Queens에서는 n을 8로 바꾸어준다.
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             grid[i][j] = 0;
