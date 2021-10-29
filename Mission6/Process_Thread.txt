@@ -9,9 +9,9 @@ PCB는 프로세스와 관련된 모든 중요한 정보들(ID, 자료, 상태, 
 * Thread
 
  Thread는 Process의 부분이 되는 실행 단위이다.
-Process는 동시에 실행될 수 있는 여러 Thread들을 가질 수 있다.
-Thread는 동시에 진행되는 프로그래밍 안에서의 실행 단위이고 Scheduler에 의해 독립적으로 관리될 수 있다.
-병렬을 이용한 어플리케이션의 수행 시에 사용자에게 도움을 줄 수 있다.
+Process는 동시에 실행되는 여러 Thread들을 가질 수 있다.
+Thread는 현재 진행되는 프로그래밍 안에서의 실행 단위이고 Scheduler에 의해 독립적으로 관리될 수 있다.
+병렬(Parallelsim)을 이용한 어플리케이션의 수행 시에 사용자에게 도움을 줄 수 있다.
 
 
 * Process와 Thread의 차이 (Process/ Thread)
